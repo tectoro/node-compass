@@ -1,4 +1,4 @@
-FROM node:0.10.40-slim
+FROM node:0.10-slim
 
 # Install compass
 RUN apt-get update \
