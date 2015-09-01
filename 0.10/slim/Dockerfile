@@ -69,3 +69,5 @@ RUN gem install bundler --version "$BUNDLER_VERSION" \
 ENV BUNDLE_APP_CONFIG $GEM_HOME
 
 RUN npm install -g grunt grunt-cli bower
+
+CMD ["node"]
