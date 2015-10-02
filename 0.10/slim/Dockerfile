@@ -6,5 +6,4 @@ RUN apk add --update build-base libffi-dev ruby ruby-dev \
     && apk del build-base libffi-dev ruby-dev \
     && rm -rf /var/cache/apk/*
 
-
 CMD ["node"]
